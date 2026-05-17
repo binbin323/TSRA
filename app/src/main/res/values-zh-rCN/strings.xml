@@ -5,7 +5,6 @@
     <string name="toast_cmd_success">命令执行成功</string>
     <string name="toast_cmd_fail">命令执行失败（%1$d）</string>
     <string name="toast_cmd_exception">命令执行异常：%1$s</string>
-    <string name="toast_auto_game_360">已为检测到的游戏尝试将触控采样率切换到 360Hz。</string>
 
     <!-- Touch sampling UI -->
     <string name="touch_title">触控采样率测试：请按住并滑动下面区域</string>
@@ -26,18 +25,7 @@
     <string name="qs_tile_240">240</string>
     <string name="qs_tile_360">360</string>
 
-    <!-- Settings & About -->
-    <string name="settings_title">设置</string>
-    <string name="settings_open">设置</string>
-    <string name="settings_hide_recents">在最近任务中隐藏</string>
-    <string name="settings_hide_recents_desc">开启后，应用会尽量在系统最近任务列表中隐藏。</string>
-    <string name="settings_auto_game_360">检测游戏自动切到 360Hz</string>
-    <string name="settings_auto_game_360_desc">开启后，当检测到指定游戏启动时，TSRA 会尝试自动将触控采样率切换到 360Hz。</string>
-    <string name="settings_check_update">检测更新</string>
-    <string name="settings_check_update_status_no_update">无更新</string>
-    <string name="settings_about">关于</string>
-    <string name="settings_back">返回</string>
-
+    <!-- About -->
     <string name="about_title">关于 TSRA</string>
     <string name="about_content">TSRA 是一个快速调节屏幕触控采样率的小工具。</string>
     <string name="about_version">版本 %1$s</string>
@@ -47,10 +35,4 @@
     <string name="about_principle_content">通过使用 oplus 的 touchHidlTest 改变屏幕触控采样，由于 13 系列 / ace5 系列后高采样节点变更，于是出现了此软件。</string>
     <string name="dialog_ok">确定</string>
 
-    <!-- Update check -->
-    <string name="update_available">检测到新版本：%1$s</string>
-    <string name="update_not_available">当前已经是最新版本。</string>
-    <string name="update_check_failed">检测更新失败：%1$s</string>
-    <string name="update_download_button">下载</string>
-    <string name="update_cancel_button">取消</string>
 </resources>

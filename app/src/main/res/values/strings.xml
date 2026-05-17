@@ -5,7 +5,6 @@
     <string name="toast_cmd_success">Command executed successfully</string>
     <string name="toast_cmd_fail">Command failed (%1$d)</string>
     <string name="toast_cmd_exception">Command exception: %1$s</string>
-    <string name="toast_auto_game_360">TSRA tried to switch touchscreen sampling rate to 360Hz for the detected game.</string>
 
     <!-- Touch sampling UI -->
     <string name="touch_title">Touch sampling rate test: press and move in the area below</string>
@@ -26,18 +25,7 @@
     <string name="qs_tile_240">240</string>
     <string name="qs_tile_360">360</string>
 
-    <!-- Settings & About -->
-    <string name="settings_title">Settings</string>
-    <string name="settings_open">Settings</string>
-    <string name="settings_hide_recents">Hide from recent tasks</string>
-    <string name="settings_hide_recents_desc">If enabled, app will try to hide from system recent tasks list.</string>
-    <string name="settings_auto_game_360">Auto 360Hz for games</string>
-    <string name="settings_auto_game_360_desc">When enabled, TSRA will try to switch touchscreen sampling rate to 360Hz automatically when specified games start.</string>
-    <string name="settings_check_update">Check for updates</string>
-    <string name="settings_check_update_status_no_update">No updates</string>
-    <string name="settings_about">About</string>
-    <string name="settings_back">Back</string>
-
+    <!-- About -->
     <string name="about_title">About TSRA</string>
     <string name="about_content">TSRA is a tool for quickly adjusting the touchscreen sampling rate.</string>
     <string name="about_version">Version %1$s</string>
@@ -47,10 +35,4 @@
     <string name="about_principle_content">Use oplus touchHidlTest to change the touchscreen sampling rate. On 13 series / ace5 series and later, the high-sampling node changed, which led to the creation of this app.</string>
     <string name="dialog_ok">OK</string>
 
-    <!-- Update check -->
-    <string name="update_available">New version available: %1$s</string>
-    <string name="update_not_available">You are already on the latest version.</string>
-    <string name="update_check_failed">Failed to check for updates: %1$s</string>
-    <string name="update_download_button">Download</string>
-    <string name="update_cancel_button">Cancel</string>
 </resources>
